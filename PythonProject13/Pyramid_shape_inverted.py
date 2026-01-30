@@ -1,9 +1,0 @@
-def invertpyramid(num):
-    for row in range(num,0,-1):
-        for space in range(num-row):
-            print(" ",end="")
-        for star in range(row):
-            print("* ",end=" ")
-        print()
-
-invertpyramid(5)
